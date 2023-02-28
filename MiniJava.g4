@@ -16,7 +16,7 @@ statement
     ;
 
 variableDeclaration
-    : (NAME | TYPE) variableDeclarationItem (',' variableDeclarationItem)* ';'
+    : type variableDeclarationItem (',' variableDeclarationItem)* ';'
     ;
 
 variableDeclarationItem
@@ -27,8 +27,8 @@ variableDeclarationItem
 expr
     : NAME ('++' | '--')
     | ('++' | '--' | '+' | '-') NAME
-    | '(' (NAME | TYPE) ')' expr
-    | expr ('*' | '/') expr
+    | '(' type ')' expr
+    | expr ('*' | '/' | '%') expr
     | expr ('+' |'-' ) expr
     |<assoc=right>expr '=' expr ';'
     | '(' expr (',' expr )* ')'
@@ -38,6 +38,13 @@ expr
     | STRING
     | 'true'
     | 'false'
+    | NAME
+    ;
+
+type
+    : 'double'
+    | 'boolean'
+    | 'int'
     | NAME
     ;
 
@@ -54,67 +61,18 @@ STRING
     : '"' .*? '"'
     ;
 
-TYPE
-    : 'double'
-    | 'byte'
-    | 'char'
-    | 'final'
-    | 'boolean'
-    | 'int'
-    | 'short'
-    | 'float'
-    | 'String'
-    ;
-
-BLOCKS
-    : 'for'
-    | 'if'
-    | 'while'
-    ;
-
-KEYWORDS
-    : 'abstract'
-    | 'continue'
-    | 'new'
-    | 'switch'
-    | 'assert'
-    | 'default'
-    | 'package'
-    | 'synchronized'
-    | 'do'
-    | 'goto'
-    | 'private'
-    | 'this'
-    | 'break'
-    | 'implements'
-    | 'protected'
-    | 'throw'
-    | 'else'
-    | 'import'
-    | 'public'
-    | 'throws'
-    | 'case'
-    | 'enum'
-    | 'instanceof'
-    | 'return'
-    | 'transient'
-    | 'catch'
-    | 'extends'
-    | 'try'
-    | 'interface'
-    | 'static'
-    | 'void'
-    | 'class'
-    | 'finally'
-    | 'long'
-    | 'strictfp'
-    | 'volatile'
-    | 'const'
-    | 'native'
-    | 'super'
+KEYWORD
+    : 'abstract'   | 'continue'   | 'for'          | 'new'         | 'switch'
+    | 'assert'     | 'default'    | 'if'           | 'package'     | 'synchronized'
+    | 'boolean'    | 'do'         | 'goto'         | 'private'     | 'this'
+    | 'break'      | 'double'     | 'implements'   | 'protected'   | 'throw'
+    | 'byte'       | 'else'       | 'import'       | 'public'      | 'throws'
+    | 'case'       | 'enum'       | 'instanceof'   | 'return'      | 'transient'
+    | 'catch'      | 'extends'    | 'int'          | 'short'       | 'try'
+    | 'char'       | 'final'      | 'interface'    | 'static'      | 'void'
+    | 'class'      | 'finally'    | 'long'         | 'strictfp'    | 'volatile'
+    | 'const'      | 'float'      | 'native'       | 'super'       | 'while'
     | '_'
-    | 'true'
-    | 'false'
     ;
 
 INT
