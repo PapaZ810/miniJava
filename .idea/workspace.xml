@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f6202d99-62a1-4107-bf9c-bef62e13bdb8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/TypeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/TypeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Cast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Cast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PostIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PostIncrement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PreIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PreIncrement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarationInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarationInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

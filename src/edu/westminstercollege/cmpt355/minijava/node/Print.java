@@ -2,9 +2,9 @@ package edu.westminstercollege.cmpt355.minijava.node;
 
 import java.util.List;
 
-public record Print(String text) implements Expression {
+public record Print(Expression expr) implements Expression {
     @Override
     public List<? extends Node> children() {
-        return null;
+        return List.of(expr);
     }
 }

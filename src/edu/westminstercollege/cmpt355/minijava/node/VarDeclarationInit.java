@@ -2,7 +2,7 @@ package edu.westminstercollege.cmpt355.minijava.node;
 
 import java.util.List;
 
-public record VarDeclarationInit(TypeNode type, String name, Expression value) implements Node {
+public record VarDeclarationInit(String name, Expression value) implements Node {
     @Override
     public List<? extends Node> children() {
         return List.of(value);

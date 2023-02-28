@@ -7,4 +7,9 @@ public record VariableAccess(String variableName) implements Expression {
     public List<? extends Node> children() {
         return List.of();
     }
+
+    @Override
+    public String getNodeDescription() {
+        return String.format("VariableAccess [name: %s]", variableName);
+    }
 }
