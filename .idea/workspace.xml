@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6202d99-62a1-4107-bf9c-bef62e13bdb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/BinaryOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/BooleanLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Cast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/DoubleLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/EmptyStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/ExpressionStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/IntLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Negate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PostIncrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/PreIncrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/StringLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/TypeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclaration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarationInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VariableAccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniJava.g4" beforeDir="false" afterPath="$PROJECT_DIR$/MiniJava.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/TypeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/TypeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarationInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminstercollege/cmpt355/minijava/node/VarDeclarationInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
